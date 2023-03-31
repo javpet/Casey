@@ -1,3 +1,9 @@
+// Colors
+$color-light-grey: #ebedee;
+$color-dark-grey: #767677;
+$color-black: #000000;
+$color-white: #fff;
+
 main {
   max-width: 100%;
   display: flex;
@@ -14,15 +20,52 @@ main {
     margin-top: 24px;
 
     .input {
+      position: relative;
+
       textarea {
         width: 100%;
         height: 300px;
         padding: 16px;
       }
+      .copy {
+        padding: 16px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background-color: $color-black;
+        color: $color-white;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
     }
 
     .buttons {
       margin-top: 24px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+
+      .tab {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border: 1px solid $color-dark-grey;
+        transition: all 300ms ease;
+        height: 40px;
+
+        &:hover {
+          background-color: $color-light-grey;
+          border: 1px solid $color-black;
+          cursor: pointer;
+        }
+
+        &.active {
+          background-color: #000000;
+          color: #fff;
+        }
+      }
     }
   }
 }
