@@ -210,7 +210,7 @@ strong {
 .gl-paragraph--l {
   font-size: 18px;
   line-height: 24px;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -220,7 +220,7 @@ strong {
 .gl-paragraph--s {
   font-size: 14px;
   line-height: 20px;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
   font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -241,7 +241,7 @@ h6,
   font-family: "AdineuePRO", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .gl-heading--xxl,
@@ -4866,117 +4866,6 @@ screen and (-ms-high-contrast: none) {
   width: 1em;
 }
 
-.gl-table-v2 {
-  display: block;
-  overflow: auto;
-}
-
-.gl-table-v2__inner {
-  height: -webkit-max-content;
-  height: max-content;
-  min-width: 100%;
-  width: -webkit-max-content;
-  width: max-content;
-}
-
-.gl-table-v2__row {
-  align-items: stretch;
-  display: flex;
-  min-width: 100%;
-  width: -webkit-max-content;
-  width: max-content;
-}
-
-.gl-table-v2__cell {
-  font-size: 14px;
-  line-height: 20px;
-  margin-bottom: 14px;
-  font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  align-items: center;
-  background: #fff;
-  box-sizing: border-box;
-  display: flex;
-  flex: 1 1 130px;
-  justify-content: stretch;
-  line-height: 15px;
-  margin: 0;
-  min-height: 50px;
-  padding: 10px;
-  position: relative;
-  text-align: center;
-  width: 130px;
-}
-
-.gl-table-v2__cell-inner {
-  width: 100%;
-}
-
-.gl-table-v2--sticky-lead-column .gl-table-v2__cell:first-child {
-  border-right: 1px solid #000;
-  font-weight: 700;
-  left: 0;
-  position: -webkit-sticky;
-  position: sticky;
-  z-index: 1;
-}
-
-.gl-table-v2__row--head .gl-table-v2__cell {
-  background: #000;
-  color: #fff;
-  font-weight: 700;
-  margin: 0;
-}
-
-.gl-table-v2--sticky-head-row {
-  max-height: 70vh;
-}
-
-.gl-table-v2--sticky-head-row .gl-table-v2__row--head {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
-
-.gl-table-v2--striped-columns .gl-table-v2__row--body .gl-table-v2__cell:nth-child(2n) {
-  background: #ebedee;
-}
-
-.gl-table-v2--striped-rows .gl-table-v2__row--body:nth-child(2n + 1) .gl-table-v2__cell {
-  background: #ebedee;
-}
-
-.gl-table-v2__row--striped .gl-table-v2__cell {
-  background: #ebedee;
-}
-
-.gl-table-v2__cell--highlight {
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-  padding-left: 9px;
-  padding-right: 9px;
-}
-
-.gl-table-v2__row--body.gl-table-v2__row--highlighted .gl-table-v2__cell {
-  border-bottom: 1px solid #000;
-  border-top: 1px solid #000;
-  padding-bottom: 9px;
-  padding-top: 9px;
-}
-
-.gl-table-v2__row--head .gl-table-v2__cell--highlight {
-  border-left: 1px solid #fff;
-  border-right: 1px solid #fff;
-}
-
-.gl-table-v2--highlight-cell-on-hover .gl-table-v2__row--body:hover .gl-table-v2__cell {
-  border-bottom: 1px solid #000;
-  border-top: 1px solid #000;
-  padding-bottom: 9px;
-  padding-top: 9px;
-}
 
 .gl-time {
   display: inline-block;
