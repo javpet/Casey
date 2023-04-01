@@ -6,6 +6,9 @@ main {
 main .content {
   width: 800px;
 }
+main .content h4 {
+  font-weight: 400;
+}
 main .generator {
   margin-top: 24px;
 }
